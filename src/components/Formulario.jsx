@@ -35,7 +35,6 @@ export const Formulario = ({
 
     // Validacion de formulario
     if ([nombre, propietario, email, fecha, sintomas].includes("")) {
-      console.log("Hay almenos un campo vacio");
       setError(true);
       return;
     }
@@ -169,3 +168,5 @@ export const Formulario = ({
     </div>
   );
 };
+
+export default Formulario;
